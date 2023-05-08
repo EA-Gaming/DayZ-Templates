@@ -1,0 +1,163 @@
+<!--This is a template! Do not import directly! -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<env>
+<!-- DayZ-Cat START - https://steamcommunity.com/sharedfiles/filedetails/?id=2947349326 -->
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+		<territory type="Ambient" name="AmbientCat" behavior="DZCatGroupBeh">
+			<file usable="cat_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Cat_Mourek" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Cat_Black" chance="1" />
+				<spawn configName="Animal_Cat_Orange" chance="10" />
+				<spawn configName="Animal_Cat_Grey" chance="20" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
+<!-- DayZ-Cat END -->
+<!-- DayZ-Otter START - https://steamcommunity.com/sharedfiles/filedetails/?id=2965263251 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/otter_territories.xml" />
+
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- OTTER -->
+    <territory type="Ambient" name="AmbientOtter" behavior="DZOtterGroupBeh">
+        <file usable="rat_territories" />
+        <!-- different agent types - class has to begin with AgentType:w -->
+        <agent type="Male" chance="1">
+            <spawn configName="Animal_Otter" chance="1" />
+        </agent>
+        <agent type="Female" chance="3">
+            <spawn configName="Animal_Otter" chance="10" />
+        </agent>
+
+        <item name="globalCountMax" val="50" />
+        <item name="zoneCountMin" val="1" />
+        <item name="zoneCountMax" val="1" />
+        <item name="playerSpawnRadiusNear" val="25" />
+        <item name="playerSpawnRadiusFar" val="75" />
+    </territory>
+<!-- DayZ-Otter END -->
+<!-- DayZ-Rabbit START - https://steamcommunity.com/sharedfiles/filedetails/?id=2948562704 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/rabbit_territories.xml" />
+
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- RABBIT -->
+    <territory type="Ambient" name="AmbientRabbit" behavior="DZRabbitGroupBeh">
+        <file usable="rabbit_territories" />
+        <!-- different agent types - class has to begin with AgentType:w -->
+        <agent type="Male" chance="1">
+            <spawn configName="Animal_Rabbit_Grey" chance="1" />
+        </agent>
+        <agent type="Female" chance="3">
+            <spawn configName="Animal_Rabbit_Brown" chance="10" />
+        </agent>
+
+        <item name="globalCountMax" val="50" />
+        <item name="zoneCountMin" val="1" />
+        <item name="zoneCountMax" val="1" />
+        <item name="playerSpawnRadiusNear" val="25" />
+        <item name="playerSpawnRadiusFar" val="75" />
+    </territory>
+<!-- DayZ-Rabbit END -->
+<!-- DayZ-Rat START - https://steamcommunity.com/sharedfiles/filedetails/?id=2950280649 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/rat_territories.xml" />
+
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- RABBIT -->
+    <territory type="Ambient" name="AmbientRat" behavior="DZRatGroupBeh">
+        <file usable="rat_territories" />
+        <!-- different agent types - class has to begin with AgentType:w -->
+        <agent type="Male" chance="1">
+            <spawn configName="Animal_Rat_Grey" chance="1" />
+        </agent>
+        <agent type="Female" chance="3">
+            <spawn configName="Animal_Rat_White" chance="10" />
+        </agent>
+
+        <item name="globalCountMax" val="50" />
+        <item name="zoneCountMin" val="1" />
+        <item name="zoneCountMax" val="1" />
+        <item name="playerSpawnRadiusNear" val="25" />
+        <item name="playerSpawnRadiusFar" val="75" />
+    </territory>
+<!-- DayZ-Rat END -->
+<!-- DayZ-Raven START - https://steamcommunity.com/sharedfiles/filedetails/?id=2959526520 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/raven_territories.xml" />
+
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- RAVEN -->
+    <territory type="Ambient" name="AmbientRaven" behavior="DZRavenGroupBeh">
+        <file usable="raven_territories" />
+        <!-- different agent types - class has to begin with AgentType:w -->
+        <agent type="Male" chance="1">
+            <spawn configName="Animal_Raven_Airborne" chance="1" />
+        </agent>
+        <agent type="Female" chance="3">
+        <spawn configName="Animal_Raven" chance="10" />
+            <spawn configName="Animal_Raven2" chance="10" />
+        </agent>
+
+        <item name="globalCountMax" val="50" />
+        <item name="zoneCountMin" val="1" />
+        <item name="zoneCountMax" val="1" />
+        <item name="playerSpawnRadiusNear" val="25" />
+        <item name="playerSpawnRadiusFar" val="75" />
+    </territory>
+<!-- DayZ-Raven END -->
+<!-- DayZ-Snake START - https://steamcommunity.com/sharedfiles/filedetails/?id=2956395819 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/snake_territories.xml" />
+    
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- SNAKE -->
+    <territory type="Herd" name="Snake" behavior="DZSnakeGroupBeh">
+        <file usable="snake_territories" />
+    </territory>
+<!-- DayZ-Snake END -->
+<!-- DayZ-Squirell START - https://steamcommunity.com/sharedfiles/filedetails/?id=2955489764 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+    <file path="env/squirrel_territories.xml" />
+
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+    <!-- SQUIRELL -->
+    <territory type="Ambient" name="AmbientSquirrel" behavior="DZSquirrelGroupBeh">
+        <file usable="squirrel_territories" />
+        <!-- different agent types - class has to begin with AgentType:w -->
+        <agent type="Male" chance="1">
+            <spawn configName="Animal_Squirrel" chance="1" />
+        </agent>
+        <agent type="Female" chance="3">
+            <spawn configName="Animal_Squirrel" chance="10" />
+        </agent>
+
+        <item name="globalCountMax" val="50" />
+        <item name="zoneCountMin" val="1" />
+        <item name="zoneCountMax" val="1" />
+        <item name="playerSpawnRadiusNear" val="25" />
+        <item name="playerSpawnRadiusFar" val="75" />
+    </territory>
+<!-- DayZ-Squirell END -->
+<!-- dbo_dil START - https://steamcommunity.com/sharedfiles/filedetails/?id=2733973003 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+		<file path="env/dil_territories.xml" />
+    <!-- ↓↓↓ add this under (<territory type="Ambient" name="AmbientHen" behavior="DZAmbientLifeGroupBeh">) class -->
+        <territory type="Herd" name="Dil" behavior="DZWolfGroupBeh">
+			<file usable="dil_territories" />
+		</territory>
+<!-- dbo_dil END -->
+<!-- dbo_raptors START - https://steamcommunity.com/sharedfiles/filedetails/?id=2684950452 -->
+    <!-- ↓↓↓ under <file path="env/bear_territories.xml" /> -->
+		<file path="env/Raptor_territories.xml" />
+<!-- dbo_raptors END -->
+</env>

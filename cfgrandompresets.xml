@@ -1,0 +1,12 @@
+<!--This is a template! Do not import directly! -->
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<randompresets>
+<!-- Dbo_Creatures START - https://steamcommunity.com/sharedfiles/filedetails/?id=2331035245 -->
+    <cargo chance="0.50" name="bloodsuckerloot">
+        <item name="NVGHeadstrap" chance="0.25" />
+        <item name="NVGoggles" chance="0.25" />
+        <item name="RGD5Grenade" chance="0.25" />
+        <item name="M67Grenade" chance="0.25" />
+    </cargo>
+<!-- Dbo_Creatures END -->
+</randompresets>

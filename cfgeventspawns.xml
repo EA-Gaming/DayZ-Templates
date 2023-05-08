@@ -1,0 +1,25 @@
+<!-- DayZ-Dog START - https://steamcommunity.com/sharedfiles/filedetails/?id=2471347750 -->
+	<event name="AnimalWildDog" />
+<!-- DayZ-Dog END -->
+<!-- DayZ-Snake START - https://steamcommunity.com/sharedfiles/filedetails/?id=2956395819 -->
+	<event name="AnimalSnake" />
+<!-- DayZ-Snake END -->
+<!-- dbo_dil START - https://steamcommunity.com/sharedfiles/filedetails/?id=2733973003 -->
+
+    <event name="AnimalDil" />
+
+<!-- dbo_dil END -->
+<!-- RedFalcon Watercraft START - https://steamcommunity.com/sharedfiles/filedetails/?id=2906371600 -->
+	
+    <event name="VehicleRFWC_Watercraft">
+		<pos x="1742.40" z="1988.56" a="1.736423" />
+		<pos x="2593.95" z="1221.36" a="1.736423" />
+		<pos x="4093.551514" z="2171.725342" a="32.092476" />
+		<pos x="6192.159668" z="2026.985718" a="-36.527287" />
+		<pos x="11182.100586" z="2420.666992" a="100.383453" />
+		<pos x="13397.819336" z="2888.313232" a="0.000000" />
+		<pos x="13137.031250" z="8231.953125" a="-13.206916" />
+		<pos x="15238.658203" z="13780.594727" a="-142.020447" />
+	</event>
+	
+<!-- RedFalcon Watercraft END  -->

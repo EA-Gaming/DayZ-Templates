@@ -1,0 +1,18 @@
+		<territory type="Ambient" name="AmbientCat" behavior="DZCatGroupBeh">
+			<file usable="cat_territories" />
+			<!-- different agent types - class has to begin with AgentType:w -->
+			<agent type="Male" chance="1">
+				<spawn configName="Animal_Cat_Mourek" chance="1" />
+			</agent>
+			<agent type="Female" chance="3">
+				<spawn configName="Animal_Cat_Black" chance="1" />
+				<spawn configName="Animal_Cat_Orange" chance="10" />
+				<spawn configName="Animal_Cat_Grey" chance="20" />
+			</agent>
+
+			<item name="globalCountMax" val="50" />
+			<item name="zoneCountMin" val="1" />
+			<item name="zoneCountMax" val="1" />
+			<item name="playerSpawnRadiusNear" val="25" />
+			<item name="playerSpawnRadiusFar" val="75" />
+		</territory>
